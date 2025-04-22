@@ -1,0 +1,109 @@
+/*
+	Program name: Patient-form.html
+	Name: Matt Dsouza
+	Data created: Febuary 2, 2025
+	Data last edited: Febuary 9, 2025
+	Version: 1.0
+	Description: Homework 1 CSS part
+*/
+
+body {
+  background-color: #F1F2EB;
+  height: 100%;
+}
+
+header {
+  background-color: #F1F2EB;
+  color: #004054;
+}  /*header styling*/
+
+.container {
+  height: 100%;
+  width: 100%; /* Full width */
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* Align items in a row */
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Even spacing */
+}
+
+.patient-info{
+  color: #F1F2EB;
+}
+
+.date {
+  display: flex;
+  align-items: flex-end; /* Align date text at the bottom */
+  font-size: 20px;
+}
+
+.equal-space {
+  justify-content: space-between;
+}
+
+.center-item {
+  justify-content: center;
+  background-color: #673C4F;
+  color: #F1F2EB;
+}
+
+/* Table Styling  */
+table {
+  border: 1px solid black;
+  width: 65%;
+  color: #004054;
+  font-weight: bold;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; /* Space columns evenly */
+  margin-left: 15%;
+  margin-top: 1%;
+}
+
+textarea {
+  width: 200px; /* Set width for input boxes */
+
+}
+
+td {
+  padding-top: 8px; /* Add spacing inside table cells */
+}
+
+a {
+  color: white;
+}
+
+.radio-gender { /* ensures that gender radio buttons appear next to each other */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/*  Footer Styling */
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  background-color: #7F557D;
+  color: white;
+  text-align: center;
+}
+/*  CSS part ends  */
+
+
+
+
+
+
+
